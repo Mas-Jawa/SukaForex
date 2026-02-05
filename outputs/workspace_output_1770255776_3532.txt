@@ -1,0 +1,2642 @@
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.202.224:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 994-227-083
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+AUDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['AUDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+NZDUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'NZDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['NZDUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCAD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCAD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCAD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+GC=F: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GC=F' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GC=F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDJPY=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDJPY=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+EURUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'EURUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['EURUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+USDCHF=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'USDCHF=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['USDCHF=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'AUDUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+GBPUSD=X: No price data found, symbol may be delisted (period=1d)
+Failed to get ticker 'GBPUSD=X' reason: Expecting value: line 1 column 1 (char 0)
+
+1 Failed download:
+['GBPUSD=X']: Exception('%ticker%: No timezone found, symbol may be delisted')
+Failed to get ticker 'USDJPY=X' reason: Expecting value: line 1 column 1 (char 0)

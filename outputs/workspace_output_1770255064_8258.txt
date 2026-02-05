@@ -1,0 +1,43 @@
+# Bot Trading Forex Web-Based (ICT & SNR)
+
+## Phase 1: Project Setup
+- [x] Buat struktur direktori web app
+- [x] Setup HTML, CSS, JavaScript files
+- [x] Implementasi animasi intro "suka forex"
+
+## Phase 2: Landing Page (Beranda)
+- [x] Buat section penjelasan "Apa itu trading Forex?" (judul tebal hitam)
+- [x] Buat section penjelasan "Apa itu Bot Analisa?" (judul tebal hitam)
+- [x] Implementasi layout responsif dan desain menarik
+
+## Phase 3: Navigation Menu
+- [x] Buat menu: Beranda, Trading Tools, Join
+- [x] Implementasi navigasi smooth antar sections
+- [x] Styling menu yang modern
+
+## Phase 4: Trading Tools Section
+- [x] Implementasi algoritma ICT (Inner Circle Trader)
+  - Order Blocks
+  - Fair Value Gaps (FVG)
+  - Breaker Blocks
+  - Liquidity Zones
+- [x] Implementasi SNR (Support & Resistance)
+  - Auto-detect support levels
+  - Auto-detect resistance levels
+  - Breakthrough confirmation
+- [x] Implementasi Stop Loss & Take Profit calculation
+- [x] Integrasikan API forex real-time
+- [x] Buat UI chart untuk visualisasi
+- [x] Implementasi tombol WhatsApp untuk kirim analisa
+
+## Phase 5: Join Section
+- [x] Tambah link Exness
+- [x] Tambah link HFM
+- [x] Tambah link XM
+- [x] Styling card/broker links
+
+## Phase 6: Testing & Finalization
+- [x] Test semua fitur trading tools
+- [x] Test responsiveness di berbagai device
+- [x] Verify semua links berfungsi
+- [x] Final styling dan polish

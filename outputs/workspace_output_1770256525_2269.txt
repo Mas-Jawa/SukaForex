@@ -1,0 +1,660 @@
+:root {
+    --bg-primary: #0a0e17;
+    --bg-secondary: #111827;
+    --bg-card: #1a2332;
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --accent-color: #6366f1;
+    --highlight-color: #818cf8;
+    --success-color: #4CAF50;
+    --danger-color: #f44336;
+    --warning-color: #ff9800;
+    --gold: #FFD700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+/* Intro Animation */
+#intro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease;
+}
+
+.suka-forex {
+    font-size: 4rem;
+    font-weight: bold;
+    animation: slideUp 1s ease-out;
+}
+
+.suka {
+    color: var(--accent-color);
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Navigation */
+nav {
+    background: var(--bg-secondary);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo span {
+    color: var(--accent-color);
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--accent-color);
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--accent-color);
+}
+
+/* Connection Status */
+.connection-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--bg-card);
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--danger-color);
+    animation: pulse 2s infinite;
+}
+
+.status-dot.connected {
+    background: var(--success-color);
+}
+
+.status-dot.disconnected {
+    background: var(--danger-color);
+}
+
+.status-text.connected {
+    color: var(--success-color);
+}
+
+.status-text.disconnected {
+    color: var(--danger-color);
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* Main Content */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Sections */
+.section {
+    min-height: calc(100vh - 200px);
+}
+
+/* Info Cards */
+.info-card {
+    background: var(--bg-card);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-card h2 {
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.info-card p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+.info-card ul {
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.info-card li {
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+/* Tools Header */
+.tools-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.tools-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, var(--accent-color), var(--highlight-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.tools-header p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+/* Price Ticker */
+.price-ticker-container {
+    background: var(--bg-card);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.price-ticker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.price-value {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.price-label {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.price-number {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.price-change {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.price-time {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.live-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--success-color);
+    animation: pulse 1s infinite;
+}
+
+.live-indicator.live-up {
+    background: var(--success-color);
+}
+
+.live-indicator.live-down {
+    background: var(--danger-color);
+}
+
+/* Chart Container */
+.chart-container {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chart-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.chart-controls select,
+.chart-controls button {
+    padding: 0.75rem 1.5rem;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.chart-controls select:hover,
+.chart-controls button:hover {
+    background: var(--accent-color);
+    border-color: var(--highlight-color);
+}
+
+.chart-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Technical Chart Wrapper */
+.technical-chart-wrapper {
+    margin-bottom: 2rem;
+}
+
+#chart-canvas {
+    width: 100%;
+    height: 400px;
+    background: var(--bg-secondary);
+    border-radius: 5px;
+}
+
+/* TradingView Wrapper */
+.tradingview-wrapper {
+    margin-top: 2rem;
+}
+
+#tradingview-widget {
+    width: 100%;
+    height: 600px;
+    background: var(--bg-secondary);
+    border-radius: 5px;
+}
+
+/* Analysis Result */
+.analysis-result {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.analysis-result h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, var(--accent-color), var(--highlight-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.signal-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.signal-item {
+    background: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--accent-color);
+}
+
+.signal-item-main {
+    grid-column: span 2;
+    background: linear-gradient(135deg, var(--accent-color), var(--highlight-color));
+}
+
+.signal-item h4 {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.signal-item p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Technical Indicators */
+.technical-indicators {
+    margin-bottom: 2rem;
+}
+
+.indicators-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.indicator-box {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid var(--accent-color);
+}
+
+.indicator-label {
+    display: block;
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.indicator-value {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+/* Analysis Details */
+.analysis-details {
+    background: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    background: #25D366;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: all 0.3s;
+    margin: 0 auto;
+}
+
+.whatsapp-btn:hover {
+    background: #128C7E;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(37, 211, 102, 0.3);
+}
+
+/* Join Section */
+#join {
+    text-align: center;
+}
+
+#join h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#join > p {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+.broker-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.broker-card {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: all 0.3s;
+    border: 2px solid transparent;
+    display: block;
+}
+
+.broker-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-color);
+    box-shadow: 0 8px 16px rgba(99, 102, 241, 0.2);
+}
+
+.broker-logo {
+    width: 80px;
+    height: 80px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 auto 1rem;
+}
+
+.broker-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.broker-card p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.broker-btn {
+    background: var(--accent-color);
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.broker-btn:hover {
+    background: var(--highlight-color);
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background: var(--bg-secondary);
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+footer p {
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.tech-stack {
+    color: var(--accent-color) !important;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+/* Loading Animation */
+.loading {
+    display: inline-flex;
+    gap: 0.3rem;
+}
+
+.loading span {
+    width: 10px;
+    height: 10px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    animation: bounce 0.6s infinite alternate;
+}
+
+.loading span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.loading span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-menu {
+        gap: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .price-ticker {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .signal-info {
+        grid-template-columns: 1fr;
+    }
+
+    .signal-item-main {
+        grid-column: span 1;
+    }
+
+    .tools-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .chart-controls {
+        flex-direction: column;
+    }
+
+    .chart-controls select,
+    .chart-controls button {
+        width: 100%;
+    }
+
+    #chart-canvas {
+        height: 300px;
+    }
+
+    #tradingview-widget {
+        height: 400px;
+    }
+
+    .broker-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 1rem;
+    }
+
+    .info-card {
+        padding: 1.5rem;
+    }
+
+    .analysis-result {
+        padding: 1.5rem;
+    }
+
+    .tools-header h2 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,19 @@
+Archive:  fbb1f0c1-0dd2-4441-bf90-e02c832e2c18.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+     8707  2026-02-05 01:06   styles.css
+        0  2026-01-27 22:43   .agent_hooks/
+        0  2026-01-27 22:43   .agent_hooks/startup/
+      251  2026-01-27 22:41   .agent_hooks/startup/_readme.txt
+     3188  2026-01-27 22:41   .agent_hooks/run_all_hooks.py
+        0  2026-01-27 22:43   .agent_hooks/shutdown/
+     8502  2026-01-27 22:41   .agent_hooks/shutdown/00_track_processes_on_ports.py
+      291  2026-01-27 22:41   .agent_hooks/shutdown/_readme.txt
+        0  2026-02-05 01:12   outputs/
+      909  2026-02-05 01:11   outputs/workspace_output_1770253910_4582.txt
+     1617  2026-02-05 01:23   outputs/workspace_output_1770253925_8155.txt
+     1397  2026-02-05 01:12   todo.md
+     7149  2026-02-05 01:06   index.html
+    24099  2026-02-05 01:10   script.js
+---------                     -------
+    56110                     14 files

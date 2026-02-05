@@ -1,0 +1,11 @@
+Archive:  fbb1f0c1-0dd2-4441-bf90-e02c832e2c18.zip
+  inflating: styles.css              
+  inflating: .agent_hooks/startup/_readme.txt  
+  inflating: .agent_hooks/run_all_hooks.py  
+  inflating: .agent_hooks/shutdown/00_track_processes_on_ports.py  
+  inflating: .agent_hooks/shutdown/_readme.txt  
+  inflating: outputs/workspace_output_1770253910_4582.txt  
+  inflating: outputs/workspace_output_1770253925_8155.txt  
+  inflating: todo.md                 
+  inflating: index.html              
+  inflating: script.js               

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suka Forex - Bot Analisa Trading ICT & SNR (Real-time)</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+    <!-- Intro Animation -->
+    <div id="intro">
+        <div class="suka-forex">
+            <span class="suka">Suka</span> Forex
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span>Suka</span> Forex
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+                <li><a href="#trading-tools" class="nav-link">Trading Tools</a></li>
+                <li><a href="#join" class="nav-link">Join</a></li>
+            </ul>
+            <div class="connection-status">
+                <span class="status-dot" id="status-dot"></span>
+                <span class="status-text" id="status-text">Disconnected</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Beranda Section -->
+        <section id="beranda" class="section">
+            <div class="info-card">
+                <h2>Apa itu trading Forex?</h2>
+                <p>
+                    Trading forex (foreign exchange) adalah aktivitas jual beli mata uang asing secara online untuk mendapatkan keuntungan dari selisih nilai tukar (fluktuasi harga). Pasar ini beroperasi 24 jam sehari, 5 hari seminggu, dan sangat likuid dengan volume transaksi mencapai triliunan dolar setiap hari. Transaksi dilakukan dalam pasangan mata uang (contoh: EUR/USD) melalui broker.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h2>Apa itu Bot Analisa?</h2>
+                <p>
+                    Bot trading forex (atau robot trading/Expert Advisor) adalah perangkat lunak komputer yang dirancang untuk menganalisis pasar dan mengeksekusi transaksi jual-beli mata uang secara otomatis berdasarkan algoritma dan parameter tertentu. Bot ini beroperasi tanpa emosi, bekerja 24 jam, dan sering digunakan di platform seperti MetaTrader 4/5. Bot kami menggunakan kombinasi algoritma ICT (Inner Circle Trader), SNR (Support & Resistance), dan technical indicators advanced untuk analisa yang lebih akurat.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h2>Fitur Unggulan</h2>
+                <ul>
+                    <li>🚀 Real-time market data dengan WebSocket</li>
+                    <li>📊 TradingView chart integration untuk visualisasi profesional</li>
+                    <li>🤖 Python + JavaScript combo untuk akurasi maksimal</li>
+                    <li>📈 Advanced technical indicators (RSI, MACD, Bollinger Bands, EMA, ATR)</li>
+                    <li>🎯 ICT pattern detection (Order Blocks, Fair Value Gaps)</li>
+                    <li>💰 Advanced SNR detection dengan clustering algorithm</li>
+                    <li>📱 WhatsApp integration untuk share analisa</li>
+                    <li>⚡ SPA (Single Page Application) untuk navigasi cepat tanpa reload</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Trading Tools Section -->
+        <section id="trading-tools" class="section" style="display: none;">
+            <div class="tools-header">
+                <h2>🤖 Bot Analisa Forex ICT & SNR (Real-time)</h2>
+                <p>Analisa otomatis menggunakan teknikal Inner Circle Trader (ICT), Support & Resistance, dan Advanced Technical Indicators dengan data real-time</p>
+            </div>
+
+            <div class="price-ticker-container">
+                <div id="price-ticker"></div>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-controls">
+                    <select id="pair-selector">
+                        <option value="EURUSD">EUR/USD</option>
+                        <option value="GBPUSD">GBP/USD</option>
+                        <option value="USDJPY">USD/JPY</option>
+                        <option value="USDCHF">USD/CHF</option>
+                        <option value="AUDUSD">AUD/USD</option>
+                        <option value="NZDUSD">NZD/USD</option>
+                        <option value="USDCAD">USD/CAD</option>
+                        <option value="XAUUSD">XAU/USD (Gold)</option>
+                    </select>
+
+                    <select id="timeframe-selector">
+                        <option value="M1">M1 (1 Menit)</option>
+                        <option value="M5">M5 (5 Menit)</option>
+                        <option value="M15">M15 (15 Menit)</option>
+                        <option value="H1" selected>H1 (1 Jam)</option>
+                        <option value="H4">H4 (4 Jam)</option>
+                        <option value="D1">D1 (Daily)</option>
+                    </select>
+
+                    <button id="analyze-btn">🔍 Mulai Analisa</button>
+                    <button id="get-password-btn" class="get-password-btn">📱 Dapatkan Password</button>
+                </div>
+
+                <div class="technical-chart-wrapper">
+                    <h4 style="color: var(--highlight-color); margin-bottom: 10px;">📊 Technical Analysis Chart (Python-powered)</h4>
+                    <canvas id="chart-canvas"></canvas>
+                </div>
+
+                <div class="tradingview-wrapper">
+                    <h4 style="color: var(--highlight-color); margin-bottom: 10px;">📈 TradingView Chart (Real-time)</h4>
+                    <div id="tradingview-widget"></div>
+                </div>
+            </div>
+
+            <div class="analysis-result" id="analysis-result" style="display: none;">
+            </div>
+
+            <!-- Password Modal -->
+            <div class="modal-overlay" id="password-modal" style="display: none;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>🔐 Password Required</h3>
+                        <button class="close-modal" id="close-modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Masukkan password untuk melanjutkan analisa</p>
+                        <div class="password-input-group">
+                            <input type="password" id="password-input" placeholder="Masukkan password...">
+                            <button id="submit-password">✓</button>
+                        </div>
+                        <p class="error-message" id="password-error" style="display: none;">Password salah! Silakan coba lagi.</p>
+                        
+                        <div class="get-password-section">
+                            <p>Belum punya password?</p>
+                            <button id="wa-password-btn" class="wa-password-btn">
+                                <span>📱</span> Dapatkan Password via WhatsApp
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join Section -->
+        <section id="join" class="section" style="display: none;">
+            <h2>🚀 Bergabung Bersama Kami</h2>
+            <p>Pilih broker terpercaya untuk memulai trading forex Anda</p>
+
+            <div class="broker-container">
+                <a href="https://one.exness-track.com/a/V1S8Vg2x" target="_blank" class="broker-card">
+                    <div class="broker-logo">E</div>
+                    <h3>Exness</h3>
+                    <p>Spread rendah, eksekusi cepat, dan regulasi terpercaya</p>
+                    <button class="broker-btn">Daftar Sekarang</button>
+                </a>
+
+                <a href="https://hfm.com/?refid=593900" target="_blank" class="broker-card">
+                    <div class="broker-logo">H</div>
+                    <h3>HFM (HotForex)</h3>
+                    <p>Bonus deposit menarik dan berbagai akun trading</p>
+                    <button class="broker-btn">Daftar Sekarang</button>
+                </a>
+
+                <a href="https://clicks.pipaffiliates.com/c?c=916047&l=id&p=1" target="_blank" class="broker-card">
+                    <div class="broker-logo">X</div>
+                    <h3>XM</h3>
+                    <p>No requote, bonus $30, dan support 24/7</p>
+                    <button class="broker-btn">Daftar Sekarang</button>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Suka Forex - Bot Analisa Trading ICT & SNR (Real-time)</p>
+        <p>Trading forex melibatkan risiko tinggi. Lakukan analisa dengan bijak. Gunakan money management yang baik.</p>
+        <p class="tech-stack">Powered by Python (Flask) + JavaScript (SocketIO) + TradingView</p>
+    </footer>
+
+    <!-- Load Modules -->
+    <script src="frontend/modules/router.js"></script>
+    <script src="frontend/modules/state.js"></script>
+    <script src="frontend/modules/api.js"></script>
+    <script src="frontend/modules/websocket.js"></script>
+    
+    <!-- Load Components -->
+    <script src="frontend/components/Chart.js"></script>
+    <script src="frontend/components/PriceTicker.js"></script>
+    <script src="frontend/components/AnalysisResult.js"></script>
+    
+    <!-- Main Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>
